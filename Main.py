@@ -12,7 +12,7 @@ def insertionSort(array) -> List[int]:
 
 # data = [9, 5, 1, 4, 3]
 input_data = input()
-data = [9, 5, 1, 4, 3]
+data = []
 for item in input_data.split(', '):
   if item.isnumeric():
     data.append(int(item))
